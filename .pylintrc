@@ -1,0 +1,66 @@
+[MASTER]
+limit-inference-results=100
+suggestion-mode=yes
+
+[MESSAGES CONTROL]
+disable=missing-module-docstring,
+        missing-class-docstring,
+        missing-function-docstring,
+        too-many-arguments,
+        no-self-argument,
+        consider-using-enumerate,
+        unspecified-encoding,
+        redefined-outer-name,
+        consider-using-with,
+        global-statement,
+        subprocess-popen-preexec-fn
+
+[REPORTS]
+score=no
+
+[VARIABLES]
+allow-global-unused-variables=yes
+init-import=yes
+
+[BASIC]
+argument-naming-style=snake_case
+attr-naming-style=snake_case
+class-attribute-naming-style=snake_case
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+docstring-min-length=-1
+function-naming-style=snake_case
+include-naming-hint=yes
+inlinevar-naming-style=snake_case
+method-naming-style=snake_case
+module-naming-style=snake_case
+variable-naming-style=snake_case
+
+[SPELLING]
+max-spelling-suggestions=4
+
+[FORMAT]
+indent-after-paren=4
+indent-string='    '
+max-line-length=88
+
+# Maximum number of lines in a module.
+max-module-lines=1000
+single-line-class-stmt=no
+single-line-if-stmt=no
+
+[LOGGING]
+logging-format-style=new
+
+[MISCELLANEOUS]
+notes=TODO
+
+[IMPORTS]
+allow-wildcard-with-all=no
+
+[DESIGN]
+max-locals=30
+min-public-methods=0
+max-attributes=20
+max-branches=20
+max-bool-expr=20

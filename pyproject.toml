@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gitsub"
+version = "0.1.0"
+description = "A general-purpose dependency manager for git repositories in a modern package manager fashion."
+authors = ["Eraz1997 <eraz1997@live.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.10"
+isort = "^5.12.0"
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
